@@ -1,15 +1,14 @@
 package com.twelvet.server.ai.controller;
 
 import com.pig4cloud.plugin.excel.annotation.ResponseExcel;
-import com.twelvet.api.ai.domain.AiDoc;
-import com.twelvet.api.ai.domain.dto.AiDocDTO;
+import com.twelvet.server.ai.domain.AiDoc;
+import com.twelvet.server.ai.domain.dto.AiDocDTO;
 import com.twelvet.framework.core.application.controller.TWTController;
 import com.twelvet.framework.core.application.domain.JsonResult;
 import com.twelvet.framework.core.application.page.TableDataInfo;
 import com.twelvet.framework.jdbc.web.utils.PageUtils;
 import com.twelvet.framework.log.annotation.Log;
 import com.twelvet.framework.log.enums.BusinessType;
-import com.twelvet.framework.security.utils.SecurityUtils;
 import com.twelvet.server.ai.service.IAiDocService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

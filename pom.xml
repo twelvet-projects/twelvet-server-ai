@@ -56,12 +56,6 @@
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
 
-        <!--AI API-->
-        <dependency>
-            <groupId>com.twelvet</groupId>
-            <artifactId>twelvet-api-ai</artifactId>
-        </dependency>
-
         <!--默认采用多数据-->
         <dependency>
             <groupId>com.twelvet</groupId>
